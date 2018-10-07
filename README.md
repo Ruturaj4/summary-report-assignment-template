@@ -22,7 +22,7 @@
     <p>You can add new sections, add new items in the references, delete the references, as per your convenience.</p>
     <h3>Preview</h3>
     <img scr="/report.png">
-    <h3>Licnence</h3>
+    ![Report/ Summary preview](/report.png)
     <p>Format licence is MIT, but data is owned by the author, Ruturaj Kiran Vaidya</p>
   </body>
 </html>
