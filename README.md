@@ -17,12 +17,12 @@
     <code>paperheight=11in,</code></br>
     <p>To change the paper width use the following code</p>
     <code>paperwidth=8.5in,</code></br>
-    <p>To add the date, delete the followng code</p>
+    <p>To add the date, delete the following code</p>
     <code>\date{\vspace{-5ex}}</code></br>
     <p>You can add new sections, add new items in the references, delete the references, as per your convenience.</p>
     <h3>Preview</h3>
-    <img scr="/report.png">
-    ![Report/ Summary preview](/report.png)
+    <img src="/report.png" alt="Project report/ summary preview"/>
+    <h3>Licence</h3>
     <p>Format licence is MIT, but data is owned by the author, Ruturaj Kiran Vaidya</p>
   </body>
 </html>
