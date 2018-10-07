@@ -1,0 +1,45 @@
+%Original Author - Ruturaj Kiran Vaidya
+\documentclass{article}
+\usepackage[
+    left=1.2in,
+    right=1.2in,
+    top=0.4in,
+    bottom=0.7in,
+    paperheight=11in,
+    paperwidth=8.5in
+]{geometry}
+
+\usepackage{layout}
+\title{Adnostic: Privacy Preserving Targeted Advertising \large \\Paper Summary}
+\author{Ruturaj Kiran Vaidya\\
+  \small University of Kansas\\\\
+}
+\date{\vspace{-5ex}}
+
+\begin{document}
+\maketitle
+
+\section{Summary}
+Online behavioral advertising (OBA) is a practice of tracking customers online over time in order to get an idea about their preferences and interests. This customer information is then used for selecting of tailoring ads to present them. But, this is a security issue as it infringes user privacy. The paper proposes a practical solution or "architecture which enables targeting without affecting user privacy"\cite{Cd94}. Their system called 'Adnostic' is implemented as a browser extension. It runs an algorithm (behavioral targeting algorithm) on browser, by processing browser's history database to determine user interests. As user browses more and more, the interest database is continuously updated. The results are stored locally in the browser and are used to choose the ads to display for that user. Results are not communicated outside, as long as user doesn't click on the ad. The paper discusses complications in their system(Adnostic). One of which is billing or accounting. "Ad-networks must bill the correct advertiser without knowing which ad was displayed to the user"\cite{Cd94}. To solve this problem, paper proposes cryptographic billing system.
+
+\section{Contribution}
+The paper proposes 'Adnostic' which enables targeting users without affecting their privacy. The motivation behind 'Adnostic' is to compliment existing behavioral advertising infrastructure and not replace it. To solve the accounting or billing problem ("ad networks must bill correct adviser without knowing which ad is displayed to the user"\cite{Cd94}), the paper proposes cryptographic billing system.
+
+\section{Strengths}
+I think the solution is good if it is accepted widely. I like that they considered possible objections with importance and tried to address them. Also, I would say Adnostic is better than the existing solutions and serves its purpose.
+
+\section{Limitations}
+I think the primary concern is that it affects ad rendering time and page loading time, the delay is a lot. Specifically on the websites having a lot of banners. To me, their solution seems unrealistic, as it is impractical to download all of the ads from heavy websites (and multiple). Also, the solution depends on the involvement of ad-networks, it must be widely accepted to be effective.
+
+\section{Future Work}
+Future work can be done to prevent fraudulent click (as their system will fail with active content, such as flash) and social engineering attacks. Also, it such system is to be implemented, then it must be wide spread (to aware or convince), as it must be widely accepted (to be effective). Also the performance problem must be addressed as soon as possible.
+
+% Bibliography
+%-----------------------------------------------------------------
+\begin{thebibliography}{99}
+
+\bibitem{Cd94} Vincent Toubiana, Arvind Narayanan, Dan Boneh, Helen Nissenbaum, Solon Barocas \emph{Adnostic: Privacy Preserving Targeted Advertising}, {NDSS} (2010)
+
+\end{thebibliography}
+
+\end{document}
