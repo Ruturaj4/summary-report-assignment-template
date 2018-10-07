@@ -6,7 +6,7 @@
   </head>
   <body>
     <h3>Motivation</h3>
-    <p>I created this template to make a report using LateX easily and quickly. Most of the templates I found online are rather complicated, over decorated, focused for two columns and hard to change. I needed an uncomplicated template to easily make my school/ college assignments/ reports or paper summaries. <a href="#preview">(Preview)</a></p>
+    <p>I created this template to make a report using LateX easily and quickly. Most of the templates I found online are rather complicated, over decorated, focused for two columns and hard to change. I needed an uncomplicated template to easily make my school/ college assignments/ reports or paper summaries. <a href="#preview">[Preview]</a></p>
     <h3>Usage</h3>
     <p>To change the margin, change the following code as per your convenience.</p>
     <code>left=1.2in,</code>
