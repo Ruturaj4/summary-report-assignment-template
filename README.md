@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <h1>LateX template for project report, summaries or assignments 📝</h1>
+    <h1>LateX template for project reports, summaries or assignments 📝</h1>
     <h2>Custom margins, spaces, sections and references</h2>
   </head>
   <body>
