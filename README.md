@@ -12,13 +12,13 @@
     <code>left=1.2in,</code>
     <code>right=1.2in,</code>
     <code>top=0.4in,</code>
-    <code>bottom=0.7in,</code></br>
+    <code>bottom=0.7in,</code></br></br>
     <p>To change the paper height use the following code</p>
-    <code>paperheight=11in,</code></br>
+    <code>paperheight=11in,</code></br></br>
     <p>To change the paper width use the following code</p>
-    <code>paperwidth=8.5in,</code></br>
+    <code>paperwidth=8.5in,</code></br></br>
     <p>To add the date, delete the following code</p>
-    <code>\date{\vspace{-5ex}}</code></br>
+    <code>\date{\vspace{-5ex}}</code></br></br>
     <p>You can add new sections, add new items in the references, delete the references, as per your convenience.</p>
     <h3 id="preview">Preview</h3>
     <img src="/report.png" alt="Project report/ summary preview"/>
