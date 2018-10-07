@@ -6,7 +6,7 @@
   </head>
   <body>
     <h3>Motivation</h3>
-    <p>I created this template to make a report using LateX easily and quickly. Most of the templates I found online are rather complicated, over decorated, focused for two columns and hard to change. I needed an uncomplicated template to easily make my school/ college assignments/ reports or paper summaries.</p>
+    <p>I created this template to make a report using LateX easily and quickly. Most of the templates I found online are rather complicated, over decorated, focused for two columns and hard to change. I needed an uncomplicated template to easily make my school/ college assignments/ reports or paper summaries. <a href="#preview">(Preview)</a></p>
     <h3>Usage</h3>
     <p>To change the margin, change the following code as per your convenience.</p>
     <code>left=1.2in,</code>
@@ -20,7 +20,7 @@
     <p>To add the date, delete the following code</p>
     <code>\date{\vspace{-5ex}}</code></br>
     <p>You can add new sections, add new items in the references, delete the references, as per your convenience.</p>
-    <h3>Preview</h3>
+    <h3 id="preview">Preview</h3>
     <img src="/report.png" alt="Project report/ summary preview"/>
     <h3>Licence</h3>
     <p>Format licence is MIT, but data is owned by the author, Ruturaj Kiran Vaidya</p>
